@@ -3,8 +3,8 @@ package extgin
 import (
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
-	"github.com/karsto/glew/common/ext-gin/controllers"
-	"github.com/karsto/glew/common/ext-gin/middleware"
+	"github.com/karsto/common/ext-gin/controllers"
+	"github.com/karsto/common/ext-gin/middleware"
 )
 
 type Registerer interface {
